@@ -1,0 +1,27 @@
+{
+  "name": "stapek/common",
+  "description": "公共库",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "chengf",
+      "email": "616129916@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "ext-redis": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-curl": "*",
+    "topthink/framework": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "common\\": "src"
+    },
+    "files": [
+      "src/common.php"
+    ]
+  }
+}
