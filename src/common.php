@@ -23,7 +23,6 @@ if (!function_exists('subpart')) {
     }
 }
 
-
 if (!function_exists('numToCNMoney')) {
     /**
      * 阿拉伯数字转中文大写金额
